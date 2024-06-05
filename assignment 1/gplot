@@ -1,0 +1,6 @@
+#set autoscale cbfix
+#splot 'outs.txt' u 1:2:(1):3 lc palette
+
+set zrange[0:1]
+splot "outs.txt" u 1:2:3 w points pointtype 5 pointsize 1 palette linewidth 3
+pause -1
